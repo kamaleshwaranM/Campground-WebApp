@@ -1,0 +1,64 @@
+<% layout('layouts/boilerplate') %>
+<!-- 
+<div class="row">
+    <div class="col-6 offset-3">
+        <h1 class="text-center mb-5">Register</h1>
+        <form action="/register" method="post" class="form-validator" novalidate>
+            <div class="mb-4">
+                <label class="form-label" for="username">Username:</label>
+                <input class="form-control" type="text" name="username" id="username" required>
+                <div class="valid-feedback">Alright!</div>
+                <div class="invalid-feedback">Enter Valid username</div>
+            </div>
+            <div class="mb-4">
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-control" type="email" name="email" id="email" required>
+                <div class="valid-feedback">Alright!</div>
+                <div class="invalid-feedback">Enter Valid Email </div>
+            </div>
+            <div class="mb-4">
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-control" type="password" name="password" id="password" required>
+                <div class="valid-feedback">Alright!</div>
+                <div class="invalid-feedback">Enter Valid Password</div>
+            </div>
+            <button class="btn btn-success">Register</button>
+        </form>
+    </div>
+</div>
+    -->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card border-1 shadow rounded-5 my-5">
+          <div class="card-body p-4 p-sm-5">
+            <img style="height:130px;" src="https://res.cloudinary.com/kamaleshm0304/image/upload/v1666273350/yelp/Get-Started-Button-02_didm2o.png"
+                    class="card-img-top" />
+                    <form action="/register" method="post" class="form-validator" novalidate>
+                <div class="mb-3">
+                    <label class="form-label" for="username">username:</label>
+                    <input class="form-control" type="text" name="username" id="username" required autofocus>
+                    <div class="valid-feedback">Alright!</div>
+                    <div class="invalid-feedback">Enter username</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-control" type="email" name="email" id="email" required>
+                    <div class="valid-feedback">Alright!</div>
+                    <div class="invalid-feedback">Enter Valid Email </div>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label" for="password">Password:</label>
+                    <input class="form-control" type="password" name="password" id="password" required>
+                    <div class="valid-feedback">Alright!</div>
+                    <div class="invalid-feedback">Enter Valid Password</div>
+                </div>
+              <div class="d-grid">
+                <button class="btn btn-success btn-lg">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
